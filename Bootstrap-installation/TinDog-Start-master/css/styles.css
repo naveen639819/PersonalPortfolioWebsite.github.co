@@ -1,0 +1,177 @@
+body{
+    font-family: 'Lilita One', cursive;
+}
+p{
+    color: #8f8f8f;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h2{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-family: 'Lilita One', cursive;
+    font-size: 2.5rem;
+    line-height: 1.5; 
+}
+h3{
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+    /* width: 100vw; */
+    height: 100vh;
+} 
+/* #navbarSupportedContent{
+    margin-left: 75vw;
+} */
+.firsth{
+    /* color: white; */
+    font-family: 'Lilita One', cursive;
+    font-size: 3.5rem;
+    line-height: 1;
+
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.navbar{
+    padding: 2%;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+    font-size: 2.5rem;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.download-button{
+    /* display: block; */
+    margin: 2rem 1rem 0 0  ;
+}
+.title-image{
+    position: relative;
+    left: 1.5rem;
+    top: 5.4rem;
+    /* padding: 1% 0 0 8%; */
+    /* padding-left: 20%; */
+    width: 17rem;
+    padding-bottom: 2rem;
+    transform: rotate(25deg);
+    /* z-index: -1; */ 
+}
+.fa-brands{
+    padding-right: 0.5rem;
+}
+#features{
+    position: relative;
+    z-index: +1;
+    padding: 7% 15%;
+    font-size: 1rem;
+    background-color: #fff;
+}
+.fa-circle-check{
+
+    color: #ff4c68;
+    font-size: 5rem;
+    padding: 2rem;
+    
+}
+.fa-bullseye{
+    /* position: relative;
+    left: 1rem; */
+    color: #ff4c68;
+    font-size: 5rem;
+    padding: 2rem;
+}
+.fa-heart{
+    /* position: relative;
+    left: 1.8rem; */
+    color: #ff4c68;
+    font-size: 5rem;
+    padding: 2rem;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+    /* font-size: 0.1rem; */
+}
+
+.icon:hover{
+    color: #ff072c; 
+
+}
+#testimonials{
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 10%;
+    margin: 5% 5% 2% 5%;
+}
+.carousel-item{
+    padding: 10% 20%; 
+}
+.testimonial-image{
+
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#pricing{
+    text-align: center;
+    padding: 100px;
+    /* margin: 100px; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#cta{
+    padding: 4rem ;
+    /* line-height: 3rem; */
+    text-align: center;
+    background-color: #ff4c68;
+    height: 40vh;
+}
+.lasth3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+}
+#footer{
+    line-height: 3rem;
+    padding: 3rem;
+    text-align: center;
+}
+.footerlast{
+    color: black;
+}
+@media (max-width:992px){
+    #title{
+        height: 200vh;
+        text-align: center;
+    }
+    .title-image{
+
+        transform: rotate(0deg);
+        width: 16rem;
+    } 
+
+}
